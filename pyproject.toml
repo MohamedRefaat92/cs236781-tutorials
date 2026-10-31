@@ -1,0 +1,23 @@
+[project]
+name = "cs236781-tutorials"
+version = "0.1.0"
+requires-python = "==3.8.*"
+dependencies = [
+    "ipython",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pytest",
+    "pytest-xdist",
+    "scikit-learn==1.1.3",
+    "scipy",
+    "tqdm",
+    "torch==2.3.*",          # torchtext 0.18 (its last release) is built against torch 2.3
+    "torchvision==0.18.*",
+    "torchtext",
+    "graphviz==0.20.1",
+    "torchviz==0.0.2",
+]
+
+[dependency-groups]
+dev = ["ipykernel"]
